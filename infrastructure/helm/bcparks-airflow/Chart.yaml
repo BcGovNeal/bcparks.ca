@@ -1,0 +1,17 @@
+apiVersion: v2
+name: bcparks-airflow
+description: A Helm chart for Kubernetes
+icon: https://airflow.apache.org/docs/apache-airflow/stable/_images/pin_large.png
+type: application
+version: 1.0.0
+appVersion: 2.1.2 # Airflow Version
+keywords:
+  - apache
+  - airflow
+  - workflow
+  - scheduler
+  - bcparks.ca
+dependencies:
+  - name: airflow
+    version: "1.1.0"
+    repository: "https://airflow.apache.org/"
